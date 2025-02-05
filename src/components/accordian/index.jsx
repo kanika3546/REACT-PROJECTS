@@ -27,7 +27,7 @@ function handleMultiSelection(getCurrentId){
 
   return (
     <div className="wrapper">
-        <button onClick={()=>setEnableMultiSelection(!enableMultiSelection)}>Enable Multi-Selection</button>
+        <button onClick={()=>setEnableMultiSelection(!enableMultiSelection)}>{enableMultiSelection ? "Disable Multi-Selection" : "Enable Multi-Selection"}</button>
       <div className="accordian">
         {data && data.length > 0 ? (
           data.map((dataItem) => (
