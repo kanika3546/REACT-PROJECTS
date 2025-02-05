@@ -38,6 +38,7 @@ useEffect(()=>{
         height: "100vh",
         background: color,
     }}>
+        
         <button onClick={()=> setTypeOfColor('hex')}>Create Hex Color</button>
         <button onClick={()=> setTypeOfColor('rgb')}>Create RGB Color</button>
         <button onClick={typeOfColor === 'hex' ? handleCreateRandomHexColor : handleCreateRandomRgbColor}>generate random color</button>
