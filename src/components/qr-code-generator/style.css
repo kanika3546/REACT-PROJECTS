@@ -1,0 +1,11 @@
+input{
+    padding: 15px;
+}
+
+button{
+    padding: 15px;
+    background: pink;
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+}
